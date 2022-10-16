@@ -51,8 +51,6 @@ function transform(array) {
     
     if(!Array.isArray(array)) throw "'arr' parameter must be an instance of the Array!"
     let arr = Object.assign([], array)
-    
-
     const control_sequences = {"--discard-next": removeNext, "--discard-prev": removePrev, "--double-next":copyNext , "--double-prev": copyPrev}
     const objectKeys = Object.keys(control_sequences)
     array.forEach(elementArr => {
