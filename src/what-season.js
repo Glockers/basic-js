@@ -16,11 +16,7 @@ const { NotImplementedError } = require('../extensions/index.js');
 function getSeason(date) {
   try{
     if (arguments.length === 0) return 'Unable to determine the time of year!';
-    let jsonDate = JSON.stringify(date);
-    if (jsonDate.length < 3) {
-      throw new Error('Invalid date!');
-    }
-    console.log(jsonDate.length)
+    JSON.stringify(date)
 
     const array = ["spring", "summer", "autumn", "winter"]
     let index = Math.floor( (Number(date.getMonth())-2)/ 3 )
@@ -31,7 +27,6 @@ function getSeason(date) {
     throw new Error('Invalid date!');
   }
 
-  // console.log(Object.prototype.toString.call(date) )
 
 
 }

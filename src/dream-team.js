@@ -30,20 +30,7 @@ function createDreamTeam(members ) {
 
 
 
-console.log(createDreamTeam([
-  '   William Alston ',
-  ' Paul Benacerraf',
-  '  Ross Cameron',
-  '       Gilles Deleuze',
-  '  Arda Denkel ',
-  '  Michael Devitt',
-  '  Kit Fine',
-  ' Nelson Goodman',
-  'David Kolb',
-  '   Saul Kripke',
-  '  Trenton Merricks',
-  '  Jay Rosenberg',
-]))
+
 
 
 module.exports = {

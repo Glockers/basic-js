@@ -26,16 +26,6 @@ function countCats(matrix) {
 
 }
 
-console.log(
-countCats([
-    [0, '^^', '^^'],
-    [0, 2, 2],
-    ['^^', 1, 2]
-   ])
-
-)
-
-
 
 module.exports = {
   countCats
